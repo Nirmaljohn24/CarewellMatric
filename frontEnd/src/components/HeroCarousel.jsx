@@ -1,9 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import carousel1 from "../assets/carousel1.jpg";
-import carousel2 from "../assets/carousel2.jpg";
-import carousel3 from "../assets/carousel3.jpg";
+import carousel1 from "../assets/Carousel1.jpg";
+import carousel2 from "../assets/Carousel2.jpg";
+import carousel3 from "../assets/Carousel3.jpg";
 
 const HeroCarousel = () => {
   const images = [carousel1, carousel2, carousel3];
