@@ -26,7 +26,6 @@ const Activities = () => {
 
   return (
     <section className="relative bg-[#0b2d67] py-16 px-6 text-center text-white overflow-hidden">
-      {/* Section Header */}
       <div className="max-w-5xl mx-auto mb-10">
         <div className="flex justify-center items-center gap-3 mb-4">
           <div className="bg-orange-500 text-white px-5 py-2 rounded-full flex items-center gap-2">
@@ -40,20 +39,19 @@ const Activities = () => {
         </h2>
       </div>
 
-      {/* Cards Container */}
       <div
         className="relative max-w-6xl mx-auto flex justify-center items-center gap-6 transition-all"
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
       >
-        {/* Left Arrow */}
+        
         {hovered && (
           <button className="absolute left-0 bg-orange-500 p-3 rounded-full text-white shadow-lg hover:scale-110 transition">
             <ArrowLeft size={20} />
           </button>
         )}
 
-        {/* Activity Cards */}
+        
         <div className="flex gap-8">
           {activities.map((item, index) => (
             <div
