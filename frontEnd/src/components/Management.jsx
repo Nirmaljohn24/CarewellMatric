@@ -7,7 +7,7 @@ import rangarajan from "../assets/RangarajanOurManagement.jpg";
 import sundaram from "../assets/SundaramOurManagement.jpg";
 import velvizhi from "../assets/velvizhiOurManagement.jpg";
 import rajalakshmi from "../assets/RajalakshmiOurManagement.jpg";
-import araselvi from "../assets/AraselviOurManagement.jpg";
+import araselvi from "../assets/AraSelviOurManagement.jpg";
 
 // Team Data
 const team = [
