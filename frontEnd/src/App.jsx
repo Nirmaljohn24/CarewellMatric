@@ -10,6 +10,10 @@ import Academic from "./components/Academic";
 import Admission from "./components/Admission";
 import Features from "./components/Features";
 import Activities from "./components/Activities";
+import Footer from "./pages/Footer";
+import Testimonial from "./components/Testimonial";
+import OurEvent from "./components/OurEvent";
+import Management from "./components/Management";
 
 function App() {
   return (
@@ -29,12 +33,16 @@ function App() {
               <Admission/>
               <Features/>
               <Activities/>
+              <Testimonial/>
+              <OurEvent/>
             </>
           }
         />
 
         <Route path="/about-school" element={<AboutSchoolUs />} />
+        <Route path="/management" element={<Management />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }

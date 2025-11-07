@@ -115,7 +115,7 @@ const Header = () => {
                 <Link to="/about-school">About The School</Link>
               </li>
               <li className="px-4 py-3 hover:bg-orange-500 hover:text-white">
-                Our Management
+                <Link to="/management">Management</Link>
               </li>
               <li className="px-4 py-3 hover:bg-orange-500 hover:text-white">
                 Curriculum
